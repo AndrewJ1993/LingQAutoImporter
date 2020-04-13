@@ -89,7 +89,7 @@ def get_information(in_link):
 # Posts information to LingQ course. Change this information to scraped information when retreived.
 def post_information(in_information):
     print(in_information)
-    api_key = "e9101e7792ed99bcddd6b58b2849334e6328e75f"
+    api_key = "put_api_key_here"
     data = {"title": in_information[0],
             "text": in_information[1],
             "collection": in_information[2],
